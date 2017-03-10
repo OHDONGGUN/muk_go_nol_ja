@@ -1,6 +1,22 @@
 Rails.application.routes.draw do
   get 'main/index'
 
+  get 'main/area'
+
+  get 'main/area_district'
+
+  get 'main/category'
+
+  get 'main/search'
+
+  get 'home/index'
+
+  get 'home/seller_page'
+
+  get 'home/user_page'
+
+  get 'main/index'
+
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
